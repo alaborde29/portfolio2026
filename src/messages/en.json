@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "webProjects": "Web Projects",
+    "mobileProjects": "Mobile Projects",
+    "about": "About",
+    "skills": "Skills"
+  },
+  "hero": {
+    "greeting": "Hey there! I'm",
+    "name": "Alexandre Laborde",
+    "title": "Web & Mobile Developer",
+    "description": "A mobile and web developer and computer science student at Epitech. I'm all about diving into the realms of well designed Mobile apps and UI.",
+    "cta": "View my projects",
+    "contact": "Contact me"
+  },
+  "home": {
+    "featuredProjects": "Featured Projects",
+    "viewAll": "View all",
+    "sections": {
+      "web": {
+        "title": "Web Projects",
+        "description": "Modern and responsive web applications"
+      },
+      "mobile": {
+        "title": "Mobile Projects",
+        "description": "Native and cross-platform iOS and Android apps"
+      },
+      "skills": {
+        "title": "Skills",
+        "description": "Technologies and tools I master"
+      },
+      "about": {
+        "title": "About",
+        "description": "Learn more about my journey"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of my work",
+    "web": {
+      "title": "Web Projects",
+      "subtitle": "Web applications and websites"
+    },
+    "mobile": {
+      "title": "Mobile Projects",
+      "subtitle": "iOS and Android applications"
+    },
+    "viewProject": "View project",
+    "viewCode": "View code",
+    "technologies": "Technologies",
+    "filter": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "Full Stack"
+    },
+    "items": {
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "My own portfolio website! Built with Next.js 14, React Three Fiber for 3D graphics, and GSAP for smooth animations."
+      },
+      "nolosay": {
+        "title": "Nolosay",
+        "description": "Showcase website for Nolosay, an innovative accessibility platform. Modern UI/UX design with RedwoodJS."
+      },
+      "github": {
+        "title": "More Projects...",
+        "description": "Explore more of my work on GitHub! From React Native apps to Swift projects, discover the full range of my skills."
+      },
+      "todolist": {
+        "title": "To Do List",
+        "description": "A native iOS task management app built with Swift and SwiftUI. Persistent storage with Firebase."
+      },
+      "flashcard": {
+        "title": "Flashcard!",
+        "description": "Educational iOS app for creating and studying with custom flashcards. Swift and Firebase for real-time sync."
+      },
+      "mybikerental": {
+        "title": "MyBikeRental",
+        "description": "Cross-platform recreation of the Bicloo bike rental app from Nantes. React Native with real-time availability and mapping."
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A developer passionate about creating digital experiences",
+    "bio": "Hey there! I'm Alexandre Laborde, a mobile and web developer and computer science student at Epitech. I'm all about diving into the realms of well designed Mobile apps and UI. It's my true passion, and I aspire to make it my full-time gig in the future!",
+    "experience": "Experience",
+    "education": "Education",
+    "interests": "Interests",
+    "location": "France",
+    "status": "Available for work",
+    "stats": {
+      "years": "3+ years experience",
+      "projects": "10+ projects",
+      "technologies": "6+ technologies"
+    },
+    "contact": {
+      "title": "Contact Me",
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and tools I use",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "tools": "Tools & DevOps",
+      "databases": "Databases",
+      "ai": "AI"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Made with"
+  },
+  "language": {
+    "switch": "Switch language",
+    "fr": "Français",
+    "en": "English"
+  }
+}

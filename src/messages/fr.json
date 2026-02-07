@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "webProjects": "Projets Web",
+    "mobileProjects": "Projets Mobile",
+    "about": "À propos",
+    "skills": "Compétences"
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "name": "Alexandre Laborde",
+    "title": "Développeur Web & Mobile",
+    "description": "Passionné de développement Mobile et Web, étudiant à Epitech. Je crée des applications modernes et des expériences utilisateur intuitives.",
+    "cta": "Voir mes projets",
+    "contact": "Me contacter"
+  },
+  "home": {
+    "featuredProjects": "Projets en vedette",
+    "viewAll": "Voir tout",
+    "sections": {
+      "web": {
+        "title": "Projets Web",
+        "description": "Applications web modernes et réactives"
+      },
+      "mobile": {
+        "title": "Projets Mobile",
+        "description": "Applications iOS et Android natives et cross-platform"
+      },
+      "skills": {
+        "title": "Compétences",
+        "description": "Technologies et outils que je maîtrise"
+      },
+      "about": {
+        "title": "À propos",
+        "description": "En savoir plus sur mon parcours"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Une sélection de mes réalisations",
+    "web": {
+      "title": "Projets Web",
+      "subtitle": "Applications et sites web"
+    },
+    "mobile": {
+      "title": "Projets Mobile",
+      "subtitle": "Applications iOS et Android"
+    },
+    "viewProject": "Voir le projet",
+    "viewCode": "Voir le code",
+    "technologies": "Technologies",
+    "filter": {
+      "all": "Tous",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "fullstack": "Full Stack"
+    },
+    "items": {
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Mon propre portfolio en ligne! Construit avec Next.js 14, React Three Fiber pour les graphiques 3D, et GSAP pour des animations fluides."
+      },
+      "nolosay": {
+        "title": "Nolosay",
+        "description": "Site vitrine pour Nolosay, une plateforme d'accessibilité innovante. Design UI/UX moderne avec RedwoodJS."
+      },
+      "github": {
+        "title": "Plus de projets...",
+        "description": "Découvrez plus de projets sur mon GitHub! Des apps React Native aux projets Swift, explorez l'étendue de mes compétences."
+      },
+      "todolist": {
+        "title": "To Do List",
+        "description": "Application native iOS de gestion de tâches construite avec Swift et SwiftUI. Stockage persistant via Firebase."
+      },
+      "flashcard": {
+        "title": "Flashcard!",
+        "description": "Application éducative iOS pour créer et étudier avec des flashcards personnalisées. Swift et Firebase pour la synchronisation."
+      },
+      "mybikerental": {
+        "title": "MyBikeRental",
+        "description": "Recréation cross-platform de l'app Bicloo de Nantes. React Native avec disponibilité en temps réel et cartographie."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Développeur passionné par la création d'expériences numériques",
+    "bio": "Salut ! Je suis Alexandre Laborde, un passionné de développement Mobile et Web étudiant à Epitech. Je suis tout particulièrement attiré par le design d'applications mobiles et d'interfaces utilisateur. C'est ma vraie passion, et j'aspire à en faire mon métier à plein temps !",
+    "experience": "Expérience",
+    "education": "Formation",
+    "interests": "Centres d'intérêt",
+    "location": "France",
+    "status": "Disponible pour missions",
+    "stats": {
+      "years": "3+ ans d'expérience",
+      "projects": "10+ projets",
+      "technologies": "6+ technologies"
+    },
+    "contact": {
+      "title": "Me contacter",
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "skills": {
+    "title": "Compétences",
+    "subtitle": "Technologies et outils que j'utilise",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "tools": "Outils & DevOps",
+      "databases": "Bases de données",
+      "ai": "IA"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "madeWith": "Fait avec"
+  },
+  "language": {
+    "switch": "Changer de langue",
+    "fr": "Français",
+    "en": "English"
+  }
+}
