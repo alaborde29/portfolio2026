@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { ProjectCard } from "./ProjectCard";
+import { ProjectModal } from "./ProjectModal";
 import { Button } from "@/components/ui/button";
 import type { Project, ProjectCategory } from "@/data/projects";
 
@@ -22,11 +23,18 @@ const filterOptions: Array<{ key: ProjectCategory | "all"; labelKey: string }> =
 export function ProjectGrid({ projects, showFilter = true }: ProjectGridProps) {
   const t = useTranslations();
   const [activeFilter, setActiveFilter] = useState<ProjectCategory | "all">("all");
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const filteredProjects =
     activeFilter === "all"
       ? projects
       : projects.filter((project) => project.category === activeFilter);
+
+  const handleProjectClick = (project: Project) => {
+    setSelectedProject(project);
+    setModalOpen(true);
+  };
 
   return (
     <div>
@@ -60,7 +68,7 @@ export function ProjectGrid({ projects, showFilter = true }: ProjectGridProps) {
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ duration: 0.3 }}
             >
-              <ProjectCard project={project} />
+              <ProjectCard project={project} onClick={() => handleProjectClick(project)} />
             </motion.div>
           ))}
         </AnimatePresence>
@@ -71,6 +79,12 @@ export function ProjectGrid({ projects, showFilter = true }: ProjectGridProps) {
           No projects found with the selected filter.
         </p>
       )}
+
+      <ProjectModal
+        project={selectedProject}
+        open={modalOpen}
+        onOpenChange={setModalOpen}
+      />
     </div>
   );
 }

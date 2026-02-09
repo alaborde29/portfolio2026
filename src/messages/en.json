@@ -51,6 +51,11 @@
     "viewProject": "View project",
     "viewCode": "View code",
     "technologies": "Technologies",
+    "modal": {
+      "about": "About this project",
+      "technologies": "Technologies used",
+      "swipeHint": "{count} screenshots - Use arrows to navigate"
+    },
     "filter": {
       "all": "All",
       "frontend": "Frontend",

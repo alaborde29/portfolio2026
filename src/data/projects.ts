@@ -7,7 +7,9 @@ export interface Project {
   category: ProjectCategory;
   titleKey: string;
   descriptionKey: string;
+  longDescriptionKey?: string;
   image: string;
+  screenshots?: string[];
   technologies: string[];
   liveUrl?: string;
   githubUrl?: string;
@@ -24,6 +26,7 @@ export const projects: Project[] = [
     titleKey: "projects.items.portfolio.title",
     descriptionKey: "projects.items.portfolio.description",
     image: "/images/projects/portfolio.png",
+    // Add more screenshots here: screenshots: ["/images/projects/portfolio-2.png", "/images/projects/portfolio-3.png"],
     technologies: ["React", "Next.js", "GSAP", "Three.js", "Tailwind CSS"],
     liveUrl: "https://alaborde.github.io",
     githubUrl: "https://github.com/alaborde29/alaborde.github.io",
@@ -98,7 +101,8 @@ export const projects: Project[] = [
     category: "fullstack",
     titleKey: "projects.items.flashy.title",
     descriptionKey: "projects.items.flashy.description",
-    image: "/images/projects/swift-flashy.png",
+    image: "/images/projects/flashy_1.png",
+    screenshots: ["/images/projects/flashy_2.png", "/images/projects/flashy_3.png", "/images/projects/flashy_4.png", "/images/projects/flashy_5.png"],
     technologies: ["Swift", "SwiftUI", "SwiftData", "Firebase", "iOS"],
     githubUrl: "https://github.com/alaborde29/Flashy",
     featured: true,
@@ -110,7 +114,8 @@ export const projects: Project[] = [
     category: "fullstack",
     titleKey: "projects.items.cryptix.title",
     descriptionKey: "projects.items.cryptix.description",
-    image: "/images/projects/swift-cryptix.png",
+    image: "/images/projects/cryptix_1.png",
+    screenshots: ["/images/projects/cryptix_2.png", "/images/projects/cryptix_3.png"],
     technologies: ["Swift", "SwiftUI", "Swift Charts", "iOS"],
     githubUrl: "https://github.com/alaborde29/Cryptix",
     featured: true,

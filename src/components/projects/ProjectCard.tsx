@@ -12,9 +12,10 @@ import type { Project } from "@/data/projects";
 
 interface ProjectCardProps {
   project: Project;
+  onClick?: () => void;
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, onClick }: ProjectCardProps) {
   const t = useTranslations();
 
   return (
@@ -24,7 +25,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.4 }}
     >
-      <Card className="group h-full overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5">
+      <Card
+        onClick={onClick}
+        className="group h-full cursor-pointer overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/50 hover:shadow-xl hover:shadow-primary/5">
         <div className="relative aspect-video overflow-hidden bg-muted">
           <Image
             src={project.image}
