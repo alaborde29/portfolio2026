@@ -81,6 +81,14 @@
       "mybikerental": {
         "title": "MyBikeRental",
         "description": "Cross-platform recreation of the Bicloo bike rental app from Nantes. React Native with real-time availability and mapping."
+      },
+      "flashy": {
+        "title": "Flashy",
+        "description": "Modern iOS flashcard app with offline-first design and cloud marketplace. Built with SwiftUI, SwiftData, and Firebase featuring 3D flip animations and quiz mode."
+      },
+      "cryptix": {
+        "title": "Cryptix",
+        "description": "iOS finance app with currency converter and cryptocurrency viewer. Neumorphic design with real-time exchange rates and interactive price charts."
       }
     }
   },

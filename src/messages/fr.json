@@ -81,6 +81,14 @@
       "mybikerental": {
         "title": "MyBikeRental",
         "description": "Recréation cross-platform de l'app Bicloo de Nantes. React Native avec disponibilité en temps réel et cartographie."
+      },
+      "flashy": {
+        "title": "Flashy",
+        "description": "Application iOS moderne de flashcards avec mode hors-ligne et marketplace cloud. Construite avec SwiftUI, SwiftData et Firebase avec animations 3D et mode quiz."
+      },
+      "cryptix": {
+        "title": "Cryptix",
+        "description": "Application iOS de finance avec convertisseur de devises et visualiseur de crypto-monnaies. Design néomorphique avec taux de change en temps réel et graphiques interactifs."
       }
     }
   },

@@ -92,6 +92,30 @@ export const projects: Project[] = [
     featured: true,
     year: 2023,
   },
+  {
+    id: "flashy",
+    type: "mobile",
+    category: "fullstack",
+    titleKey: "projects.items.flashy.title",
+    descriptionKey: "projects.items.flashy.description",
+    image: "/images/projects/swift-flashy.png",
+    technologies: ["Swift", "SwiftUI", "SwiftData", "Firebase", "iOS"],
+    githubUrl: "https://github.com/alaborde29/Flashy",
+    featured: true,
+    year: 2026,
+  },
+  {
+    id: "cryptix",
+    type: "mobile",
+    category: "fullstack",
+    titleKey: "projects.items.cryptix.title",
+    descriptionKey: "projects.items.cryptix.description",
+    image: "/images/projects/swift-cryptix.png",
+    technologies: ["Swift", "SwiftUI", "Swift Charts", "iOS"],
+    githubUrl: "https://github.com/alaborde29/Cryptix",
+    featured: true,
+    year: 2026,
+  },
 ];
 
 export const getProjectsByType = (type: ProjectType) =>
