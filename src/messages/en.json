@@ -90,8 +90,10 @@
     "bio": "Hey there! I'm Alexandre Laborde, a mobile and web developer and computer science student at Epitech. I'm all about diving into the realms of well designed Mobile apps and UI. It's my true passion, and I aspire to make it my full-time gig in the future!",
     "experience": "Experience",
     "education": "Education",
+    "diplome": "Expert in Information Technologies Master Degree - 2021 - 2025",
+    "diplomeDescription": "Computer Science formation focusing on software engineering, systems architectures and project managment.",
     "interests": "Interests",
-    "location": "France",
+    "location": "Rennes, France",
     "status": "Available for work",
     "stats": {
       "years": "3+ years experience",
@@ -103,7 +105,8 @@
       "email": "Email",
       "github": "GitHub",
       "linkedin": "LinkedIn"
-    }
+    },
+    "bacDescription": "End of highschool degree. Bac S option Engineer Sciences and Computer Sciences"
   },
   "skills": {
     "title": "Skills",

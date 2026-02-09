@@ -125,10 +125,10 @@ export const skillGroups: SkillGroup[] = [
 
 // Main technologies for About page
 export const mainTechnologies = [
+  { name: "Swift", icon: SiSwift },
   { name: "JavaScript", icon: SiJavascript },
   { name: "TypeScript", icon: SiTypescript },
   { name: "React", icon: SiReact },
   { name: "React Native", icon: SiReact },
-  { name: "Swift", icon: SiSwift },
   { name: "Firebase", icon: SiFirebase },
 ];

@@ -90,8 +90,10 @@
     "bio": "Salut ! Je suis Alexandre Laborde, un passionné de développement Mobile et Web étudiant à Epitech. Je suis tout particulièrement attiré par le design d'applications mobiles et d'interfaces utilisateur. C'est ma vraie passion, et j'aspire à en faire mon métier à plein temps !",
     "experience": "Expérience",
     "education": "Formation",
+    "diplome": "Master d'Expert en Technologie de l'Information - 2021 - 2025",
+    "diplomeDescription": "Formation en informatique avec focus sur le développement logiciel, les architectures systèmes et la gestion de projets.",
     "interests": "Centres d'intérêt",
-    "location": "France",
+    "location": "Rennes, France",
     "status": "Disponible pour missions",
     "stats": {
       "years": "3+ ans d'expérience",
@@ -103,7 +105,8 @@
       "email": "Email",
       "github": "GitHub",
       "linkedin": "LinkedIn"
-    }
+    },
+    "bacDescription": "Diplôme de fin d'étude en lycée. Bac S option Sciences de l'ingénieur et ISN"
   },
   "skills": {
     "title": "Compétences",

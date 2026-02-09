@@ -127,9 +127,16 @@ export function ProfileSection() {
           <CardContent className="space-y-4">
             <div className="border-l-2 border-primary/50 pl-4">
               <h4 className="font-semibold">Epitech</h4>
-              <p className="text-sm text-muted-foreground">Computer Science - En cours</p>
+              <p className="text-sm text-muted-foreground"> {t("diplome")}</p>
               <p className="mt-2 text-muted-foreground">
-                Formation en informatique avec focus sur le développement logiciel, les architectures systèmes et la gestion de projets.
+                {t("diplomeDescription")}
+              </p>
+            </div>
+            <div className="border-l-2 border-primary/50 pl-4">
+              <h4 className="font-semibold">Lycée Yves Thépot</h4>
+              <p className="text-sm text-muted-foreground"> Baccalauréat S-SI - 2015 - 2018</p>
+              <p className="mt-2 text-muted-foreground">
+                {t("bacDescription")}
               </p>
             </div>
           </CardContent>
